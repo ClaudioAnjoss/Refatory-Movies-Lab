@@ -1,2 +1,86 @@
-# Refatory-Movies-Lab
- Refatoração do Projeto Movies-Lab com Eslint, React Query, Redux e Rotas  Descrição do Projeto: Este projeto consiste em uma extensa refatoração de um projeto GitHub já existente, com o objetivo de melhorar a qualidade do código, a manutenibilidade e a experiência do usuário. As principais adições incluem a integração de ferramentas e bibliotecas modernas, como Eslint para garantir a consistência e a qualidade do código, React Query para melhor gerenciamento de estado e Redux para o gerenciamento de estado complexo, bem como a implementação de um sistema de roteamento.  Principais Características e Adições:  Eslint: A introdução do Eslint permite que o código-fonte seja escrito de acordo com regras e padrões predefinidos, melhorando a consistência e a qualidade do código. Isso facilita a detecção precoce de erros e torna o código mais legível e seguro.  React Query: A biblioteca React Query é adicionada para simplificar o gerenciamento de estado da aplicação, facilitando a busca e manipulação de dados de forma eficiente. Isso resulta em uma experiência de usuário mais responsiva e uma aplicação mais escalável.  Redux: O Redux é integrado para tratar de estados complexos da aplicação, como autenticação e informações do usuário. Ele fornece um fluxo de dados unidirecional que ajuda a manter o código organizado e torna mais fácil o compartilhamento de estados entre os componentes.  Rotas: A introdução de um sistema de roteamento, provavelmente usando uma biblioteca como React Router, permite a navegação na aplicação. Isso cria uma experiência de usuário mais fluida, à medida que os componentes são carregados dinamicamente com base nas ações do usuário.  Outros Benefícios:  Melhoria na organização do código e na separação de preocupações. Facilidade na manutenção e extensão do projeto. Melhorias na usabilidade e na experiência do usuário. Maior capacidade de lidar com estados complexos e autenticação. Este projeto é uma demonstração do compromisso em manter as melhores práticas de desenvolvimento e fornecer uma aplicação GitHub mais eficiente e amigável. Os recursos adicionados devem resultar em um código mais limpo, uma experiência do usuário aprimorada e uma base sólida para futuras expansões e melhorias.
+# Movie Lab
+
+![Movie Lab Screenshot](link-para-imagem-screenshot)
+
+**Descrição:**
+O Movie Lab é um site de filmes onde os usuários podem explorar listas de filmes recomendados, os filmes em alta e pesquisar por filmes específicos. O projeto foi desenvolvido em React e utiliza tecnologias como Sass, React Query, Eslint, Redux e Axios para fornecer uma experiência semelhante à Netflix, oferecendo informações detalhadas sobre cada filme.
+
+**Capturas de Tela:**
+![Screenshot 1](link-para-imagem-screenshot-1)
+![Screenshot 2](link-para-imagem-screenshot-2)
+
+## Como Usar
+
+### Visualização Online
+
+Você pode acessar o Movie Lab diretamente na Vercel [link-deploy-vercel](link-deploy-vercel). Nenhuma instalação local é necessária para visualização.
+
+### Executando Localmente
+
+Caso deseje executar o projeto localmente, siga estas etapas:
+
+1. Certifique-se de ter o Node.js instalado em sua máquina.
+
+2. Clone este repositório:
+   ```bash
+   git clone link-do-repositorio
+   ```
+
+3. Navegue até a pasta do projeto:
+   ```bash
+   cd movie-lab
+   ```
+
+4. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+5. Inicie a aplicação:
+   ```bash
+   npm start
+   ```
+
+Acesse a aplicação em [http://localhost:3000](http://localhost:3000) em seu navegador.
+
+## Como Contribuir
+
+Você é bem-vindo para contribuir com o projeto. Siga estas etapas:
+
+1. Faça um fork do repositório.
+
+2. Clone o seu fork localmente:
+   ```bash
+   git clone link-do-seu-fork
+   ```
+
+3. Crie uma nova branch para suas modificações:
+   ```bash
+   git checkout -b minha-nova-feature
+   ```
+
+4. Faça as alterações desejadas e commit-as:
+   ```bash
+   git commit -m 'Adicionando minha nova feature'
+   ```
+
+5. Envie as alterações para o seu fork:
+   ```bash
+   git push origin minha-nova-feature
+   ```
+
+6. Crie um Pull Request no repositório original.
+
+## Autores
+
+Desenvolvido por Claudio Anjos(link-para-o-seu-site-portfolio).
+
+## Nota Legal
+
+Este projeto é disponibilizado apenas para fins didáticos e para demonstrar as habilidades de desenvolvimento front-end do autor. Não há licença associada a este projeto.
+
+## Versões Anteriores
+
+Uma versão anterior deste projeto foi desenvolvida sem o uso de frameworks e passou por uma refatoração para incorporar as tecnologias mencionadas.
+
+---
